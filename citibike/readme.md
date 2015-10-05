@@ -1,0 +1,1 @@
+This is assignment 3. I work with Zhou to find whether the age of citibike rider has an impact on the ratio of their riding on weekdays to weekends. Zhou and I work together to come up with the idea. Zhou has done most of the programming and what I do is checking his lines and writing the notes and test issues. 
