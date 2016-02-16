@@ -1,0 +1,65 @@
+your plot reviews are fine 10/10
+
+NOTES ON YOUR PLOT
+===================
+
+
+the choice of using points instead of a histogram here really compromises readability: the structure in the data cannot be seen.
+
+maybe in log scale it would have been possibly to see structure in the data by decompressing the density in the low values, but as it is the plot is non informative.
+
+ticks too small
+
+consider plotting in smaller units, perhaps minutes, or even hours, so that the y axis does not have such large numbers.
+
+
+NOTES ON THE PLOTS YOU REVIEWED
+===========================================
+
+
+sz1795
+============
+
+
+a meaningful comparison is impossible due to the large difference in the men values. if that was the point then a time series would be unnecessary. if the structure should have been compared then a time series should have been modified by multiplying by an appropriate constant and indicating that in the legend 
+
+small axes labels
+
+the axis labels should be words, not variable names: startdate -> "start date (startdate)"
+
+
+
+yl3250
+============
+
+
+the majority of the datapoints are in blue, but blue is not in the legend, thus i do not know what the majority if what is plotted is.
+
+the different size is not explained ( i think it is in the title but the syntax is not understandable. "Size = land area" should be a label somewhere).
+
+the tick labels are too small and the x notation (python default) should be changes to something more readable: for example plotting in units of 10^7 which is what python defaults to but including the 10^7 in the caption as "population size in units of 10 millions" or plotting in 10^6 as "population size (millions)"
+
+the plot should be in log scale so differences in the x axis away from 9 could be seen (since this must be the most important data in the plot seen as it is in different color)
+
+Ton-> Tons
+
+
+
+
+
+hbk254
+============
+ 
+the time series are of very different order of magnitude. thus all of them are invisible and cluster at the bottom . log y should be used.
+
+why is the plot resolution so low?
+
+there are too many time series on the plot. even with log space the result would likely be confusing. 
+
+for the y ticks a compressed notation for the large numbers should be chosen to enhance readability
+
+good legend and good size for the labels.
+
+consider steps instead of lines joining points for time series
+
+
